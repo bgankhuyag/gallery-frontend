@@ -5,12 +5,12 @@ import {
 } from "react-router-dom";
 import Home from './views/home'
 import About from './views/about'
-import Header from './layout/header'
+import Layout from './layout/layout'
 
 function App() {
   return (
     <Router>
-      <Header>
+      <Layout>
         <Switch>
           <Route path="/about">
             <About />
@@ -19,7 +19,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </Header>
+      </Layout>
     </Router>
   );
 }
