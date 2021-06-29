@@ -12,11 +12,11 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
       </Layout>
