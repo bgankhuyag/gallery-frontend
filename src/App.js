@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Home from './views/home'
 import About from './views/about'
+import Contact from './views/contact'
 import Layout from './layout/layout'
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
     <Router>
       <Layout>
         <Switch>
+          <Route path="/contact">
+            <Contact />
+          </Route>
           <Route path="/about">
             <About />
           </Route>

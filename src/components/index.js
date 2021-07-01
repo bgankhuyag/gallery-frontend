@@ -1,3 +1,3 @@
 import Spin from './spin'
 
-export {Spin};
+export { Spin };

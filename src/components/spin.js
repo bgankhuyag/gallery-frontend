@@ -1,11 +1,14 @@
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 import './styles.css'
 
-const Spin = () => {
-
+const Spin = ({
+  size = 24,
+  color = "#0096c7"
+}) => {
   return (
-    <div className="App-logo">
-      
-    </div>
+    <FontAwesomeIcon icon={faSpinner} className="spin" style={{ fontSize: size, color: color }} />
   )
 }
 

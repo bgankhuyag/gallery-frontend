@@ -1,0 +1,46 @@
+.item-container {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.item-image-container {
+  flex: 1;
+  margin: auto;
+  padding: 10px;
+  max-width: 500px;
+  background-image: url("https://cdn-cleao.nitrocdn.com/TzLOdJRvtwybIAtzpXyiULQhgoOWbUCN/assets/static/optimized/wp-content/uploads/2016/06/5201a0fc5b86190b61ff92ea3569686c.eos_autumn3.png");
+  text-align: center;
+  border-radius: 10px;
+}
+
+.item-image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 500px;
+  min-width: 200px;
+  border-radius: 5px;
+}
+
+.item-info {
+  flex: 1;
+  min-width: 200px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 529px) {
+  .item-info {
+    margin-top: 10px;
+  }
+}
+
+.item-name, .item-description {
+  padding-bottom: 10px;
+}
+
+.item-subheading {
+  margin-bottom: 5px;
+}

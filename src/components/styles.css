@@ -1,21 +1,14 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  width: 100px;
-  height: 100px;
-  background-color: #0CB1C4;
+.spin {
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2s linear;
+  .spin {
+    animation: rotate infinite 1.5s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
