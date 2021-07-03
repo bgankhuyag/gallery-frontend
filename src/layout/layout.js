@@ -1,4 +1,3 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Header from './header';
 
 const Layout = ({ children }) => {

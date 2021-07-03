@@ -6,6 +6,7 @@ import {
 import Home from './views/home'
 import About from './views/about'
 import Contact from './views/contact'
+import Gallery from './views/gallery'
 import Layout from './layout/layout'
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
     <Router>
       <Layout>
         <Switch>
+          <Route path="/gallery">
+            <Gallery />
+          </Route>
           <Route path="/contact">
             <Contact />
           </Route>
