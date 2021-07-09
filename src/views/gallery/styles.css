@@ -54,3 +54,14 @@
 .selected-date, .selected-size {
   text-align: right;
 }
+
+.items-container {
+  /* background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 1.6px, #e5e5f7 1.6px);
+  background-size: 32px 32px; */
+  /* background-size: contain; */
+  /* max-width: 100%; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-image: url("https://inspirationhut.net/wp-content/uploads/2014/09/grey-paper-texture.jpg"); */
+}

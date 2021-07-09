@@ -25,7 +25,7 @@ const Gallery = () => {
   const handleClose = () => setVisible(false)
 
   return (
-    <>
+    <div className="items-container">
     {
       loading ?
       <Spin size={40} />
@@ -55,7 +55,7 @@ const Gallery = () => {
       </Modal>
       : null
     }
-    </>
+    </div>
   );
 }
 

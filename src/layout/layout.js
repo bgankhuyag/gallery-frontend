@@ -2,10 +2,10 @@ import Header from './header';
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div style={{backgroundColor: '#fffded', minHeight: '100vh'}}>
       <Header />
       {children}
-    </>
+    </div>
   )
 }
 
