@@ -1,1 +1,1 @@
-export const CM_TO_PX = 15;
+export const CM_TO_PX = 17;
